@@ -13,3 +13,20 @@
 #13
 #14
 #FizzBuzz
+
+#for loop to iterate through 25 
+for number in range(1, 26):
+    #checking if divisible by 3 or 5
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    
+    #checking if divisible by 3
+    elif number % 3 == 0:
+        print("Fizz")
+
+    #checking if divisible by 5
+    elif number % 5 == 0:
+        print("Buzz")
+    #if not divisible by 3 or 5
+    else:
+        print(number)
